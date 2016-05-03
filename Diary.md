@@ -69,7 +69,17 @@ We learnt how computers compute and tried a few calculations ourselves
 		* Multi Queue Schedule
 			* each process is assigned a particular level
 
-		* 
+* File Management System
+	* Unix
+		* Unix File System
+	* Linux
+		* ZFS, XFS
+	* Mac OS
+		* HSF, HSF+
+	* Windows
+		* FAT, NTFS
+
+ 
 
 		
 
