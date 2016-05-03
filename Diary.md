@@ -79,7 +79,44 @@ We learnt how computers compute and tried a few calculations ourselves
 	* Windows
 		* FAT, NTFS
 
- 
+###Day 3
+We learnt about Data Structuring, Algorithms and Databases.
+
+* Algorithm
+	* A set of instructions of methods to solve a problem
+	
+	* Sorting Algorithm
+		* Select Sort
+			* finds the minimum value and swaps it with the value in the first position
+		* Bubble Sort
+			* compares two consecutive data and moves the bigger to the right
+		* Insertion Sort
+			* inserts data in place between two other piece of data
+
+* Data Structure
+	* A structure to manage data efficiently
+		* Primitive? Structure
+		* Sequential Structure
+		* Non-Sequential Structure
+	
+	* Array
+		* Quick to access as all data blocks are in line
+		* Must set array length
+		* Array length is immutable
+	* List
+		* Slower to access as all data is not in line
+		* Linked via instructions
+		* length and position is mutable
+	* Stack
+		* Data is push in and popped in reverse order
+	* Queue
+		* Data is pushed and popped in order of entry
+	* Dequeue
+		* Data is pushed and popped at the front and back
+	* Tree
+		* One root node
+	* Graph
+		* No root node
 
 		
 
