@@ -92,6 +92,13 @@ We learnt about Data Structuring, Algorithms and Databases.
 			* compares two consecutive data and moves the bigger to the right
 		* Insertion Sort
 			* inserts data in place between two other piece of data
+		* Merge Sort
+			* divides the data into sections. Sort and merge until all data is sorted
+		* Quick Sort
+			* divide and conquer similar to Merge Sort but a lot faster
+	* Time Complexity
+		* quantifies the amount of time taken to run
+		* big O notation
 
 * Data Structure
 	* A structure to manage data efficiently
@@ -118,6 +125,16 @@ We learnt about Data Structuring, Algorithms and Databases.
 	* Graph
 		* No root node
 
+*Database
+	* is an organised collection of data
+	* models aspects of reality to support processes requiring information
+
+*Database VS Data Structure
+	* Database collects the data
+	* Data Structure refers to the use of the data in a certain format
+
+* Database Management System
+	* MySQL, PostgreSQL, SQLite etc
 		
 
 
