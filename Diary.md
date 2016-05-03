@@ -125,11 +125,11 @@ We learnt about Data Structuring, Algorithms and Databases.
 	* Graph
 		* No root node
 
-*Database
+* Database
 	* is an organised collection of data
 	* models aspects of reality to support processes requiring information
 
-*Database VS Data Structure
+* Database VS Data Structure
 	* Database collects the data
 	* Data Structure refers to the use of the data in a certain format
 
