@@ -189,7 +189,6 @@ Will be very handy to turn sets into lists
 		python3 == print(), input()
 	* File
 		Korean to English encoding
-		# -*- coding: utf
 
 		with open('./animals.txt', 'w') as f:
 			for i in range(5)
