@@ -1,0 +1,5 @@
+#Terminology and Commands
+
+| Notes			| Git Command				|
+| --------------------- | -------------------------------------:| 
+| Tell Git who you are 	| git config --global user.name "Name"	|
