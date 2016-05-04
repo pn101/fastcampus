@@ -49,7 +49,7 @@ stars(int(input('How many?')))
 # Code 4b.
 def stars(count):
 	for i in range(count):
-		print((' ' * i) + ('*' * (count - 1)))
+		print((' ' * i) + ('*' * (count - i)))
 
 stars(int(input('How many?')))
 
