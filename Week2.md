@@ -143,5 +143,84 @@
 
 
 
+###Day 8 - Python
+
+* Data Type
+	* Numbers
+		* +=
+		* %
+		* **
+
+	* String
+		* ''
+		* %s, %
+		* '{name}'.format(name = '')
+
+	* List [] - mutable
+		* list[]
+		* len(list)
+		* .append('')
+		* .pop()
+
+	* tuple - similar to list, but cannot immutable
+
+	* set - 집합 ()
+		* no order and cannot have duplicate data
+
+"""
+list(set(name))
+Will be very handy to turn sets into lists
+"""		
+	
+	* dictionary {'key':'value'}
+
+
+
+
+* Control Statement
+	* if
+	* while
+	* for
+	* (Range)
+
+* Input and Output
+	* User
+		python == print '', raw_input()
+		python3 == print(), input()
+	* File
+		Korean to English encoding
+		# -*- coding: utf
+
+		with open('./animals.txt', 'w') as f:
+			for i in range(5)
+				f.write('hello world')
+
+* Functions
+	
+
+additional
+./ == current folder
+../ == previous folder
+../../ == previous previous
+
+./test.txt
+
+* 과제
+* Read PEP8
+
+1. print stars align to right
+2. print top to bottom
+3. print top to bottom and align to right
+
+
+
+
+
+
+
+
+
+
+
 
 
