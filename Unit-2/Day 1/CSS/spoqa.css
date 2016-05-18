@@ -1,0 +1,89 @@
+1@charset 'utf-8';
+
+.shadowintolight {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 400;
+}
+
+.spoqahansans {
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+	font-weight: 200;
+}
+
+body {
+	/*Set individual margins*/
+/*	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20%;
+	margin-right: 20%;*/
+	
+	/*set content width and auto margin*/
+/*	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 63px;*/
+
+	/*set content percentage and auto margin*/
+	width: 80%;
+	margin: 63px auto;
+
+	background-color: #808080;
+	color: #fff;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+	font-weight: 200;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.reading-guide-21 {
+	/*draws a 21px horizontal pattern on the screen.*/
+	/*CSS3 Linear Gradient*/
+	background-image: linear-gradient(180deg, transparent 95%, #f00);
+	background-size: 1px 21px;
+}
+
+.crazy-design {
+	background-image: linear-gradient(45deg, transparent 95%, #f00);
+	background-size: 100px 100px;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 21px;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.frame {
+	border: 4px solid #3A0099;
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 21px;
+}
+
+.roundframe {
+	border-radius: 50px;
+}
+
+.frame-shadow {
+	/*box-shadow: x y blur spread color;*/
+	box-shadow: 0 3px 10px rgba(0,200,10,0.5);
+}
+
+.material-style {
+	transition: all .6s ease;
+	transform: scale(1);
+}
+
+.material-style:hover {
+	box-shadow: 0 3px 10px rgba(0,200,10,0.5);
+	transform: scale(1.1);
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
