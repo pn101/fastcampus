@@ -1,8 +1,0 @@
-@charset 'utf-8';
-
-body {
- 	background: #ff0; /*web safe color*/ 
-	color: #333333; /*true color*/
-	font-size: 16px;
-	line-height: 1.5;	
-}
