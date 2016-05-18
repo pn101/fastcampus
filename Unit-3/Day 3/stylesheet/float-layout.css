@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+}
+
+.page {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+	background: #000;
+}
+
+.page-header {
+	height: 20vh;
+	background-color: #ffd219;
+}
+
+.page-main {
+	/*height: 100vh;*/
+	background-color: #4FE94C;
+}
+
+.page-footer {
+	/*clear: both;*/
+	height: 20vh;
+	background-color: #4200FD;
+}
+
+.page-ad {
+	float: right;
+	height: 80vh;
+	width: 80%;
+	background-color: #D555E3;
+}
+
+.page-aside {
+	float: left;
+	width: 20%;
+	height: 80vh;
+	background-color: #E06747;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both
+}
