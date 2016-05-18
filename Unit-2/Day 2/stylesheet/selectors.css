@@ -1,0 +1,84 @@
+/*Select All 0000*/
+/*body * {
+	border: 10px solid red;
+}*/
+
+/*Type Selector 0001*/
+div {
+	width: 100px;
+	height: 100px;
+	border: 10px solid;
+}
+
+/*Class Selector 0010*/
+.border-purple {
+	border-color: purple;
+}
+
+/*ID Selector 0100*/
+	/*#maroon {
+		border-color: maroon;
+	}
+	.nostyle {
+		list-style-type: none;
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.reset-list {
+		list-style-type: none;
+		padding: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.red {
+		color: red;
+	}
+	.yellow {
+		color: yellow;
+	}*/
+
+
+/*:Pseudo Class*/
+/*가상, 유사, 의사 클래스*/
+	ul {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	ul li {
+		list-style-type: none;
+		border-right: 1px solid gray;
+		border-left: 1px solid gray;
+		padding: 0.5rem;
+	}
+	ul li:first-child {
+		border: 1px solid red;
+		border-radius: 10px 10px 0 0;
+	}
+	ul li:nth-child(3) {
+		background-color: #dbf6ff;
+	}
+	ul li:hover {
+		background-color: #eaf8d4
+	}
+	ul li:last-child {
+		border: 1px solid hotpink;
+		border-radius: 0 0 10px 10px;
+	}
+	
+	ol {
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+		list-style-type: none;
+	}
+
+
+	a {
+		text-decoration: none;
+		font-size: 2rem;
+		color: #fc414b;
+	}

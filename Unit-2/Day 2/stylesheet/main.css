@@ -1,0 +1,51 @@
+/*
+body {
+	font-size: 14px;
+}
+.outer {
+	font-size: 1.2em;
+}
+.inner	{
+	font-size: 1.15em;
+}
+.inner a {
+	font-size: 0.987em;
+}
+.inner span {
+	font-size: 1.17em;
+}*/
+
+body {
+	font-size: 120%;
+}
+.outer {
+	font-size: 1.2rem;
+}
+.inner {
+	font-size: 0.75rem;
+}
+.inner a {
+	font-size: 0.75rem;
+}
+.inner span {
+	font-size: 1.09rem;
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 80%;
+		background: #00FFFF;
+	}
+}
+@media screen and (min-width: 601px) {
+	html {
+		font-size: 100%;
+		background: #FF7F00;
+	}
+}
+@media screen and (min-width: 1000px) {
+	html {
+		font-size: 120%;
+		background: #FFFF00;
+	}
+}
