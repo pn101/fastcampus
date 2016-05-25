@@ -87,12 +87,12 @@ ipython
 $ vim requirements.txt
 ```
 
-7. add line to `requirement.txt`
+7. add line to `requirements.txt`
 ```
 -r requirements/production.txt
 ```
 
 8. run 
 ```
-$ pip install -r requirement.txt
+$ pip install -r requirements.txt
 ```
